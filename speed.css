@@ -1,0 +1,56 @@
+body{
+    background-color: lightslategray;
+    font-family: Krub;
+}
+nav img{
+    max-width: 100%;
+    height: auto;
+    width: 10%;
+    float: left;
+}
+button{
+
+    position: absolute;
+    right: 50%;
+    height: 50px;
+    width: 150px;
+    margin-right: -75px;
+    bottom: 20%;
+    background-color: lightslategray;
+
+}
+h1 ,h3{
+    text-align: center;
+    margin-top: 80px;
+    
+}
+h3{
+    font-style: italic;
+    text-align: center;
+}
+h1{
+    font-weight: 600;
+    text-align: center;
+}
+ul{
+    list-style: none;
+    background-color: lightslategray;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li{
+    float: right;
+}
+li a{
+    color: white;
+    font-weight: 500; 
+    display: block;
+    text-align: center;
+    padding: 15px 18px;
+}
+li a:hover{
+    color:black;
+    font-weight: 600;
+    text-decoration: none;
+}
